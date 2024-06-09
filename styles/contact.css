@@ -1,0 +1,79 @@
+#contactForm{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    padding:20px;
+    border-radius: 10px;
+    width:350px;
+}
+#logo{
+    display: block;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom:20px;
+}
+.title{
+    text-align: center;
+    margin:0;
+    margin-bottom: 20px;
+    color:white;
+}
+#contactForm input[type=text]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;
+    outline: none;
+    padding: 10px;
+    width:calc(100% - 20px);
+    margin-bottom:20px;
+    border:none;
+    border-radius: 5px;
+    border:2px solid #1078ff;
+}
+#contactForm textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;
+    outline: none;
+    padding: 10px;
+    margin-bottom:20px;
+    border:none;
+    border-radius: 10px;
+    width:calc(100% - 20px);
+    resize: vertical;
+    text-align: center;
+    max-height: 200px;
+    min-height: 72px;
+    border:2px solid #1078ff;
+}
+#contactForm input[type=submit]{
+    display: block;
+    width:100%;
+    height:40px;
+    border:none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1078ff;
+    border:2px solid #1078ff;
+    background-color: white;
+    transition: 0.2s;
+}
+#contactForm input[type=submit]:hover{
+    color:white;
+    background-color: #1078ff;
+    cursor: pointer;
+}
+#socialMedia{
+    position: absolute;
+    bottom: 30px;
+    left:50%;
+    transform: translateX(-50%);
+}
+#socialMedia a{
+    margin-left: 20px;
+    margin-right: 20px;
+}

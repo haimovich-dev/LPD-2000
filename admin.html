@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/universal.css">
+    <link rel="stylesheet" href="/styles/admin.css">
+    <link rel="icon" type="image/x-icon" href="gallery/logo.png">
+    <title>HaimovichTech</title>
+</head>
+<body>
+    <div id="controlPanel">
+        <div id="addUser" class="BTN">
+            <img src="/gallery/add-user.png">
+            <p>Add User</p>
+        </div>
+        <div id="editUser" class="BTN">
+            <img src="/gallery/edit-user.png">
+            <p>Edit</p>
+        </div>
+        <div id="deleteUser" class="BTN">
+            <img src="/gallery/delete.png">
+            <p>Delete</p>
+        </div>
+        <div id="refresh" class="BTN">
+            <img src="/gallery/refresh.png">
+            <p>Refresh DB</p>
+        </div>
+        <div id="searchUser">
+            <input id="searchValue" type="text" placeholder="Serach By SSN . . .">
+            <img id="searchBTN" src="/gallery/search.png">
+        </div>
+        
+        <div id="logout" class="BTN">
+            <img src="/gallery/logout.png">
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>SSN</td>
+                <td>Username</td>
+                <td>Email</td>
+                <td>Phone</td>
+                <td>Privilege</td>
+                </tr>
+        </thead>
+        <tbody id="usersDatabaseTable">
+            
+        </tbody>
+    </table>
+</body>
+<script src="/scripts/admin.js"></script>
+</html>

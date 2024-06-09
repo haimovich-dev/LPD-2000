@@ -1,0 +1,79 @@
+/*https://colorhunt.co/palette/27374d526d829db2bfdde6ed*/
+body{
+    padding: 20px;
+}
+/*PANEL DESIGN*/
+#controlPanel{
+    margin-bottom: 20px;
+    padding:20px;
+    border-radius: 15px;
+    background-color: #31363F;
+}
+.BTN:last-child{
+    transition: 0.3s;
+    padding-right: 5px;
+    margin-left: 20px;
+    float:right;
+    margin-right: 0;
+}
+.BTN:last-child:hover{
+    background-color: rgb(255, 63, 63);
+}
+
+#searchUser{
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    background-color: #526D82;
+    transition: 0.1s;
+}
+#searchValue{
+    display: inline-block;
+    width:150px!important;
+    margin:0;
+    padding:0;
+    padding-left: 10px;
+    border:0;
+    font-size: 14px;
+    outline: none;
+    vertical-align: middle;
+    background-color: transparent;
+    color:white;
+}
+#searchValue::placeholder{
+    color:rgb(220, 220, 220);
+}
+#searchUser img{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin:0;
+    vertical-align: middle; 
+    transition: 0.1s;
+    border-radius: 5px;
+}
+#searchUser img:hover{
+    cursor: pointer;
+    background-color: #9DB2BF;
+}
+
+#deleteUser:hover{
+    background-color:red !important;
+}
+#addUser:hover{
+    background-color: #1078ff !important;
+}
+/*ADD USER*/
+#preventer{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(255,255,255,0.1);
+}

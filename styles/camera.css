@@ -1,0 +1,59 @@
+html{
+    overflow: hidden;
+}
+#streamContainer{
+    background-color: black;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 15px;
+}
+#streamController{
+    border-radius: 10px;
+    width:calc(100% - 30px);
+    padding:15px;
+    margin-bottom: 20px;
+    color:white;
+    background-color: #31363F;
+}
+#streamOBJ{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.BTN{
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    padding-right: 15px;
+    border-radius: 5px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: #526D82;
+    transition: 0.1s;
+}
+.BTN:hover{
+    background-color: #9DB2BF;
+}
+.BTN img{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin:0;
+    vertical-align: middle; 
+}
+.BTN p{
+    display: inline-block;
+    margin:0;
+    vertical-align: middle; 
+}
+.BTN:last-child{
+    float:right;
+    margin-right: 0;
+}
+.BTN:last-child:hover{
+    background-color: rgb(255, 63, 63);;
+}
+.BTN:first-child:hover{
+    background-color: rgb(115, 181, 85);
+}

@@ -1,0 +1,85 @@
+/*IMAGE DATA PANEL*/
+#selectedImage{
+    display: inline-block;
+    vertical-align: middle;
+    height:100%;
+    width:auto;
+    border-radius: 10px;
+}
+
+#suspectData{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:30px;
+    padding:10px;
+    white-space: nowrap;
+}
+
+#suspectData h4{
+    margin:0;
+    padding:0;
+    font-weight: 100;
+}
+/*CONTROL PANEL*/
+#serachSuspect{
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    background-color: #526D82;
+    transition: 0.1s;
+}
+
+#searchValue{
+    display: inline-block;
+    width:150px!important;
+    margin:0;
+    padding:0;
+    padding-left: 10px;
+    border:0;
+    font-size: 14px;
+    outline: none;
+    vertical-align: middle;
+    background-color: transparent;
+    color:white;
+}
+
+#searchValue::placeholder{
+    color:rgb(220, 220, 220);
+}
+
+#serachSuspect img{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin:0;
+    vertical-align: middle; 
+    transition: 0.1s;
+    border-radius: 5px;
+}
+
+#serachSuspect img:hover{
+    cursor: pointer;
+    background-color: #9DB2BF;
+}
+
+#deleteSuspect{
+    float:right;
+    margin-right: 0;
+}
+
+#deleteSuspect:hover{
+    background-color: red !important;
+}
+
+#addSuspect:hover{
+    background-color: rgb(16, 120, 255) !important;
+}
+
+/* TABLE PANEL */
+/*https://colorhunt.co/palette/dcf2f17fc7d93654860f1035*/
+

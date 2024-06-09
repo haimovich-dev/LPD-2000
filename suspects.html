@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/universal.css">
+    <link rel="stylesheet" href="/styles/vertical.css">
+    <link rel="stylesheet" href="/styles/suspects.css">
+    <link rel="icon" type="image/x-icon" href="gallery/logo.png">
+    <title>HaimovichTech</title>
+</head>
+<body>
+    <div id="navBar">
+        <img src="/gallery/logo.png" id="logo">
+        <a class="button active" id="suspectsWin">
+            <img src="/gallery/suspects.png">
+            <p>Suspects</p>
+        </a>
+        <a class="button" id="cameraWin" href="/camera">
+            <img src="/gallery/camera.png">
+            <p>Camera</p>
+        </a>
+        <a class="button" id="accountWin" href="/account">
+            <img src="/gallery/account.png">
+            <p>Account</p>
+        </a>
+        <div class="button" id="logout">
+            <img src="/gallery/logout.png">
+            <p>Logout</p>
+        </div>
+        <p id="credit">Created by Danil Haimovich</p>
+    </div>
+    <div id="content">
+        <div id="panel">
+            <img id="selectedImage" src="/gallery/suspect-default.jpg">
+            <div id="suspectData">
+                <h1 id="fullnameField">Fullname: __________</h1>
+                <h4 id="ssnField">SSN: __________</h4>
+                <h4 id="licensePlateField">License Plate: __________</h4>
+                <h4 id="isSpottedField">Is Spotted: __________</h4>
+            </div>
+        </div>
+        <div id="controlPanel">
+            <div class="BTN" id="addSuspect">
+                <img src="/gallery/add-user.png">
+                <p>Add</p>
+            </div>
+            <div class="BTN" id="editSuspect">
+                <img src="/gallery/edit-user.png">
+                <p>Edit</p>
+            </div>
+            <div class="BTN" id="refresh">
+                <img src="/gallery/refresh.png">
+                <p>Refresh DB</p>
+            </div>
+            <div id="serachSuspect">
+                <input id="searchValue" type="text" placeholder="Serach By SSN . . .">
+                <img id="searchBTN" src="/gallery/search.png">
+            </div>
+            <div class="BTN" id="deleteSuspect">
+                <img src="/gallery/delete.png">
+                <p>Delete</p>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>SSN</td>
+                    <td>License Plate</td>
+                    <td>isSpotted</td>
+                </tr>
+            </thead>
+            <tbody id="suspectsDatabaseTable">
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="/scripts/verticalNavBarSwitch.js"></script>
+<script src="/scripts/suspects.js"></script>
+</html>

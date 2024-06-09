@@ -1,0 +1,59 @@
+#loginForm{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding:20px;
+    border-radius: 15px;
+    width:350px;
+}
+.field{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;
+    outline: none;
+    padding: 10px;
+    width:calc(100% - 20px);
+    margin-bottom:20px;
+    border:none;
+    border-radius: 5px;
+    border:2px solid #1078ff;
+}
+#loginForm input[type=submit]{
+    display: block;
+    width:100%;
+    height:40px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color:#1078ff;
+    border:2px solid #1078ff;
+    transition: 0.2s;
+}
+#loginForm input[type=submit]:hover{
+    background-color: #1078ff;
+    color:white;
+    cursor: pointer;
+}
+#title{
+    text-align: center;
+    color:white;
+}
+a{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+a:hover{
+    cursor: pointer;
+    background-color: #1078ff;
+}

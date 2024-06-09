@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/universal.css">
+    <link rel="stylesheet" href="/styles/vertical.css">
+    <link rel="stylesheet" href="/styles/camera.css">
+    <link rel="icon" type="image/x-icon" href="gallery/logo.png">
+    <title>HaimovichTech</title>
+</head>
+<body>
+    <div id="navBar">
+        <img src="/gallery/logo.png" id="logo">
+        <a class="button" id="suspectsWin" href="/suspects">
+            <img src="/gallery/suspects.png">
+            <p>Suspects</p>
+        </a>
+        <a class="button active" id="cameraWin">
+            <img src="/gallery/camera.png">
+            <p>Camera</p>
+        </a>
+        <a class="button" id="accountWin" href="/account">
+            <img src="/gallery/account.png">
+            <p>Account</p>
+        </a>
+        <div class="button" id="logout">
+            <img src="/gallery/logout.png">
+            <p>Logout</p>
+        </div>
+        <p id="credit">Created by Danil Haimovich</p>
+    </div>
+    <div id="content">
+        <div id="streamContainer">
+            <img id="streamOBJ" src="/gallery/neuro-net-wallpaper.jpg" width="100%" height="100%">
+        </div>
+        <div id="streamController">
+            <div class="BTN" id="startStream">
+                <img src="/gallery/play.png">
+                <p>Start Stream</p>
+            </div>
+            <div class="BTN" id="getLicensePlate">
+                <img src="/gallery/camera.png">
+                <p>Capture License Plate</p>
+            </div>
+            <div class="BTN" id="stopStream">
+                <img src="/gallery/stop.png">
+                <p>Stop Stream</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/scripts/verticalNavBarSwitch.js"></script>
+<script src="/scripts/camera.js"></script>
+</html>

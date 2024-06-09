@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/externalHTMLs/universalForm.css">
+<form method="POST" action="/admin/adduser" id="adduserForm">
+    <img id="close" src="/gallery/close.png" width="30px" height="auto">
+    <p id="title">Add New User</p>
+    <input type="text" name="firstname" placeholder="First Name" class="thin">
+    <input type="text" name="lastname" placeholder="Last Name" class="thin">
+    <input type="text" name="ssn" placeholder="SSN" class="thin">
+    <input type="text" name="username" placeholder="Username" class="thin">
+    <input type="text" name="phonenumber" placeholder="Phone Number" >
+    <input type="text" name="emailaddress" placeholder="Email Address">
+    <select name="privilege">
+        <option value="0" selected>User</option>
+        <option value="1">Admin</option>
+    </select>
+    <input type="submit" value="Add New User">
+</form>
