@@ -8,7 +8,7 @@ CREATE DATABASE `LPD2000DB`;
 			CREATE USER WITH PRIVILEGES:
 ========================================================================
 
-CREATE USER nodejs@localhost IDENTIFIED WITH sha256_password BY 'kinneret-DB-P@sS';
+CREATE USER nodejs@localhost IDENTIFIED WITH sha256_password BY 'HIDDEN-PASSWORD';
 
 GRANT ALL PRIVILEGES ON LPD2000DB.* TO nodejs@localhost;
 
